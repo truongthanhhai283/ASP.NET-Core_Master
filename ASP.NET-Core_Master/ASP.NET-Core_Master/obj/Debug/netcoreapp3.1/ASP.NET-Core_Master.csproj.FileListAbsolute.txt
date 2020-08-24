@@ -50,7 +50,6 @@ D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.csprojAssemblyReference.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.AssemblyInfoInputs.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.AssemblyInfo.cs
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.RazorAssemblyInfo.cache
@@ -382,3 +381,9 @@ D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.csproj.CoreCompileInputs.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

@@ -29,7 +29,7 @@
 	Runtime Razor Package : install Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 	Create Book Model
 	Add Connection String and Packages: install EntityFrameworkCore/.SQLserver/Tools
-	Add Book Table to Database
+	Add Book Table to Database: Migration and update Book into DB
 	Book Index Get Handler
 	Designing Book Index Page
 	Designing Book Index Page Part 2

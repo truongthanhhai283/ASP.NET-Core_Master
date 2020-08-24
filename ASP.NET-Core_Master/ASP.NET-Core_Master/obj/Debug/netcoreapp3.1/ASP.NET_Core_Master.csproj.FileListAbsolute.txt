@@ -432,3 +432,4 @@ D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET_Core_Master.pdb
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET_Core_Master.genruntimeconfig.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Edit.cshtml.g.cs
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET_Core_Master.csprojAssemblyReference.cache

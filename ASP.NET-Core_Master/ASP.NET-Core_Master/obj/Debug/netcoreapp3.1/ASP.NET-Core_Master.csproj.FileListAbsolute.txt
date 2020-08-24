@@ -375,10 +375,10 @@ D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.csproj.CoreCompileInputs.cache
-D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cs
-D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.Views.pdb
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.pdb
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.genruntimeconfig.cache
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.csproj.CoreCompileInputs.cache
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cache

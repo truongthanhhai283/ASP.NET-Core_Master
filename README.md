@@ -30,7 +30,7 @@
 	Create Book Model
 	Add Connection String and Packages: install EntityFrameworkCore/.SQLserver/Tools
 	Add Book Table to Database: Migration and update Book into DB
-	Book Index Get Handler
+	Book Index Get Handler: Add razorpage index.cshtml
 	Designing Book Index Page
 	Designing Book Index Page Part 2
 	Create Book Page Model

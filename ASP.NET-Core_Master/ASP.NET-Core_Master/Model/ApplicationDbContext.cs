@@ -11,5 +11,7 @@ namespace ASP.NET_Core_Master.Model
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
         }
+
+        public DbSet<Book> Book { get; set; }
     }
 }

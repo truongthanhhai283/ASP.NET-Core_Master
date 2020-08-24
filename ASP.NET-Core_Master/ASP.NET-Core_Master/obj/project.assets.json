@@ -8977,9 +8977,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master.csproj",
-      "projectName": "ASP.NET-Core_Master",
-      "projectPath": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master.csproj",
+      "projectUniqueName": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET_Core_Master.csproj",
+      "projectName": "ASP.NET_Core_Master",
+      "projectPath": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET_Core_Master.csproj",
       "packagesPath": "C:\\Users\\TruongThanhHai\\.nuget\\packages\\",
       "outputPath": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\ASP.NET-Core_Master\\obj\\",
       "projectStyle": "PackageReference",

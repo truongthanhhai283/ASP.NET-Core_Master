@@ -431,3 +431,4 @@ D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\ASP.NET-Core_Master.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Index.cshtml.g.cs
+D:\Project\ASP.NET-Core_Master\ASP.NET-Core_Master\ASP.NET-Core_Master\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Create.cshtml.g.cs

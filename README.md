@@ -33,7 +33,7 @@
 	Book Index Get Handler: Add razorpage index.cshtml
 	Designing Book Index Page
 	Designing Book Index Page Part 2
-	Create Book Page Model
+	Create Book Page Model: Migration and update ISBNBook into DB
 	Create Book Page UI
 	Create Book and Validations
 	Client Side Validations

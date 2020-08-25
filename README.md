@@ -77,3 +77,9 @@
 		
 	10. Add Database
 		Update migration default into DB
+		
+	11. Startup.cs change in .net core 3.1
+			Delelte options => options.SignIn.RequireConfirmedAccount = true
+	12. Updating NavBar and Scaffolding Identity
+		
+	

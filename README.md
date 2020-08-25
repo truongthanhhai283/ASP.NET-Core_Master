@@ -72,5 +72,8 @@
 		
 	9. Moving files to make Area Work: 
 		View + Controller Home -> Customer Area
-		Modifier ViewImport and ViewStart
+		Modified ViewImport and ViewStart
 		Delete Model & Data from Admin and Home area
+		
+	10. Add Database
+		Update migration default into DB

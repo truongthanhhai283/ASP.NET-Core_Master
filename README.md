@@ -55,3 +55,12 @@
 	4. Routing in mvc
 	5. Routing with Areas:
 		Areas -> Identity/Admin(Controllers - View)/Customer(Controllers - View)
+	6. Routing Differences 2.2 vs 3.0
+		Routing 2.2
+			app.UseMVC(route=>{
+				routes.MapRoute{
+					name:"Areas",
+					template:"{area=Customer}/{Controller=Home}/{action=Index}/{id?}"
+				}
+			})
+	

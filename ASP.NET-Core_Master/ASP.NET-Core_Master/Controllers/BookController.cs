@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ASP.NET_Core_Master.Model;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ASP.NET_Core_Master.Controllers
 {
@@ -19,9 +20,25 @@ namespace ASP.NET_Core_Master.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {            
-            return Json(new { data=_db.Book.ToList()});
+            return Json(new { data=await _db.Book.ToListAsync()});
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var BookDb= await _db.Book.FirstOrDefaultAsync(x => x.Id == id);
+            if (BookDb==null)
+            {
+                return Json(new { success = false, message = "Error while Deleting" });
+            }
+            else
+            {
+                _db.Remove(BookDb);
+                await _db.SaveChangesAsync();
+                return Json(new { success = true, message = "Delete success" });
+            }
         }
     }
 }

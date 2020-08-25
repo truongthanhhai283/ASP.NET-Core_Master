@@ -63,4 +63,7 @@
 					template:"{area=Customer}/{Controller=Home}/{action=Index}/{id?}"
 				}
 			})
+			
+	7. MVC folders
+		install nuget AspNetCore.MVC.Razor.Runtime.compilation
 	

@@ -2,51 +2,51 @@
 
 
 2. Section 2 Fundamentals and Security
-	Create a new project
-	Csproj file
-	Launchsettings.json New
-	wwwroot
-	Razor Pages
-	Pages Folder
-	Routing in Razor Pages
-	Tag Helpers
-	Action Result in Razor
-	Main Method
-	Startup 1
-	Startup 2
-	Middlewares
-	AppSettings
-	SQL injection
-	Dependency Injection
-	Cross-site scripting
-	Open redirect attacks
-	Cross- Site Request Forgery
+	1. Create a new project
+	2. Csproj file
+	3. Launchsettings.json New
+	4. wwwroot
+	5. Razor Pages
+	6. Pages Folder
+	7. Routing in Razor Pages
+	8. Tag Helpers
+	9. Action Result in Razor
+	10. Main Method
+	11. Startup 1
+	12. Startup 2
+	13. Middlewares
+	14. AppSettings
+	15. SQL injection
+	16. Dependency Injection
+	17. Cross-site scripting
+	18. Open redirect attacks
+	19. Cross- Site Request Forgery
 	
 
 3. Project 1 - Book List Razor
-	Introduction
-	Project
-	Runtime Razor Package : install Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
-	Create Book Model
-	Add Connection String and Packages: install EntityFrameworkCore/.SQLserver/Tools
-	Add Book Table to Database: Migration and update Book into DB
-	Book Index Get Handler: Add razorpage index.cshtml
-	Designing Book Index Page
-	Designing Book Index Page Part 2
-	Create Book Page Model: Migration and update ISBNBook into DB
-	Create Book Page UI
-	Create Book and Validations
-	Client Side Validations
-	Edit Book Get Handler
-	Edit Book UI
-	Edit Post Handler
-	Delete Book
-	Book Get API
-	DataTables
-	Delete API Call
-	Delete Book
-	Upsert Page Handlers
-	Upsert Page UI
+	1. Introduction
+	2. Project
+	3. Runtime Razor Package : install Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+	4. Create Book Model
+	5. Add Connection String and Packages: install EntityFrameworkCore/.SQLserver/Tools
+	6. Add Book Table to Database: Migration and update Book into DB
+	7. Book Index Get Handler: Add razorpage index.cshtml
+	8. Designing Book Index Page
+	9. Designing Book Index Page Part 2
+	10. Create Book Page Model: Migration and update ISBNBook into DB
+	11. Create Book Page UI
+	12. Create Book and Validations
+	13. Client Side Validations
+	14. Edit Book Get Handler
+	15. Edit Book UI
+	16. Edit Post Handler
+	17. Delete Book
+	18. Book Get API
+	19. DataTables
+	20. Delete API Call
+	21. Delete Book
+	22. Upsert Page Handlers
+	23. Upsert Page UI
 	
 4. Project 2- Spice
 	1. Introduction
@@ -67,3 +67,5 @@
 	7. MVC folders
 		install nuget AspNetCore.MVC.Razor.Runtime.compilation
 	
+	8. Adding Areas to project
+		Create 2 Areas Admin + Customer

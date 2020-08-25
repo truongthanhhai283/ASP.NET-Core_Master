@@ -9,6 +9,7 @@ using ASP.NET_Core_Spice.Models;
 
 namespace ASP.NET_Core_Spice.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

@@ -69,3 +69,8 @@
 	
 	8. Adding Areas to project
 		Create 2 Areas Admin + Customer
+		
+	9. Moving files to make Area Work: 
+		View + Controller Home -> Customer Area
+		Modifier ViewImport and ViewStart
+		Delete Model & Data from Admin and Home area

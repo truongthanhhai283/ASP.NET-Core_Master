@@ -23,5 +23,20 @@ namespace ASP.NET_Core_Master.Pages.BookList
         {
             Books = await _db.Book.ToListAsync() ;
         }
+
+        public async Task<IActionResult> OnPostDelete(int id)
+        {
+            var Book = await _db.Book.FindAsync(id);
+            if (Book == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                _db.Book.Remove(Book);
+                await _db.SaveChangesAsync();
+            }
+            return RedirectToPage("Index");
+        }
     }
 }

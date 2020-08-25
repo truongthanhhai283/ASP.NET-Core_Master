@@ -47,3 +47,11 @@
 	Delete Book
 	Upsert Page Handlers
 	Upsert Page UI
+	
+4. Project 2- Spice
+	1. Introduction
+	2. Create New Project - Spice
+	3. MVC architecture
+	4. Routing in mvc
+	5. Routing with Areas:
+		Areas -> Identity/Admin(Controllers - View)/Customer(Controllers - View)

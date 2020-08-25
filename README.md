@@ -81,5 +81,7 @@
 	11. Startup.cs change in .net core 3.1
 			Delelte options => options.SignIn.RequireConfirmedAccount = true
 	12. Updating NavBar and Scaffolding Identity
-		
+	
+	13. Adding Dropdown to NavBar
+		added dropdown with bootstrap
 	

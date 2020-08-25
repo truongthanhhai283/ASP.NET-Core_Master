@@ -89,4 +89,4 @@
 	1. Introduction
 	2. Category Model: add-migration and update CategoryTable into Database
 	3. Add Category Controller and Get Action Method
-	
+	4. Add Category Index View

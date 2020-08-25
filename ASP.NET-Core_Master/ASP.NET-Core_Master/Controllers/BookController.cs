@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NET_Core_Master.Controllers
 {
+    [Route("api/Book")]
+    [ApiController]
     public class BookController : Controller
     {
         private readonly ApplicationDbContext _db;

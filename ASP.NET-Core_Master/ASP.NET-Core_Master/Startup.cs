@@ -12,13 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ASP.NET_Core_Master.Model;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NET_Core_Master
 {
-    [Route("api/Book")]
-    [ApiController]
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -65,6 +61,7 @@ namespace ASP.NET_Core_Master
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapRazorPages();
             });
         }

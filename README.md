@@ -84,4 +84,9 @@
 	
 	13. Adding Dropdown to NavBar
 		added dropdown with bootstrap
+
+5. Category
+	1. Introduction
+	2. Category Model: add-migration and update CategoryTable into Database
+	3. Add Category Controller and Get Action Method
 	

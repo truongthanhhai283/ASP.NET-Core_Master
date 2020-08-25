@@ -1,5 +1,8 @@
 # ASP.NET-Core_Master\
 
+Tip
+	Icon: https://www.flaticon.com/free-icon/chili_687851?term=spicy&page=1&position=9
+
 
 2. Section 2 Fundamentals and Security
 	1. Create a new project
@@ -90,3 +93,4 @@
 	2. Category Model: add-migration and update CategoryTable into Database
 	3. Add Category Controller and Get Action Method
 	4. Add Category Index View
+	5. Add Background and Images

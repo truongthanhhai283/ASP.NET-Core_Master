@@ -122,3 +122,4 @@ Fix:
 		created _DeleteAndBacktoListButtonPartialView
 	19. Delete Category POST Action
 	20.	Details Category Get Action
+	21. Details Category View

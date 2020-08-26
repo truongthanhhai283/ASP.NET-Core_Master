@@ -25,6 +25,11 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
             return View(data);
         }
 
+        //GET - CREATE
+        public IActionResult Create()
+        {
 
+            return View();
+        }
     }
 }

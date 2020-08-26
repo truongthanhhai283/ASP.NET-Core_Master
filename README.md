@@ -97,3 +97,4 @@ Tip
 	6. Category Index View Part 1
 	7. Create Button Partial View
 		Created and using button partial view 
+	8. Create Button Partial View Part 1

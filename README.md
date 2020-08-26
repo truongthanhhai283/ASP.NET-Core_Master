@@ -94,3 +94,4 @@ Tip
 	3. Add Category Controller and Get Action Method
 	4. Add Category Index View
 	5. Add Background and Images
+	6. Category Index View Part 1

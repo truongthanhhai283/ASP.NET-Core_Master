@@ -99,27 +99,42 @@ Fix:
 
 5. Category
 	1. Introduction
+	
 	2. Category Model: add-migration and update CategoryTable into Database
+	
 	3. Add Category Controller and Get Action Method
+	
 	4. Add Category Index View
+	
 	5. Add Background and Images
+	
 	6. Category Index View Part 1
+	
 	7. Create Button Partial View
 		Created and using button partial view 
 	8. Create Button Partial View Part 1
 	9. Create Button Partial View Part 2
+	
 	10. Create and Back to List Button Partial View
+	
 	11. Create Category POST Action Method
+	
 	12. Table Button Partial View
 		created _TableButtonPartial
+	
 	13. Edit Category Get Action
 	14. Edit Category View
 		created _EditAndBacktoListButtonPartial
 	15. Edit and Back to List Button partial View
 	16. Edit Category POST Action
+	
 	17. Delete Category Get Action
 	18. Delete Category View
 		created _DeleteAndBacktoListButtonPartialView
 	19. Delete Category POST Action
+	
 	20.	Details Category Get Action
 	21. Details Category View
+	22. Details Category View Partial
+		created _DetailsAndBacktoListButtonPartialView
+	

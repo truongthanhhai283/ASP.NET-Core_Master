@@ -112,3 +112,4 @@ Fix:
 	11. Create Category POST Action Method
 	12. Table Button Partial View
 	13. Edit Category Get Action
+	14. Edit Category View

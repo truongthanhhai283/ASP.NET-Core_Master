@@ -148,3 +148,6 @@ Fix:
 	
 	4. SubCategory Index View
 	
+	5. SubCategory and Category View Model
+		Created ViewModel Folder
+	

@@ -95,3 +95,5 @@ Tip
 	4. Add Category Index View
 	5. Add Background and Images
 	6. Category Index View Part 1
+	7. Create Button Partial View
+		Created and using button partial view 

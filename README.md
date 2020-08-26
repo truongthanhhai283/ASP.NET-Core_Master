@@ -120,3 +120,4 @@ Fix:
 	17. Delete Category Get Action
 	18. Delete Category View
 		created _DeleteAndBacktoListButtonPartialView
+	19. Delete Category POST Action

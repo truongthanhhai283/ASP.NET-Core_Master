@@ -146,3 +146,5 @@ Fix:
 		
 	3. Add Sub Category Index Action Action Method
 	
+	4. SubCategory Index View
+	

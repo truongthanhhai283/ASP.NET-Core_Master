@@ -100,3 +100,4 @@ Tip
 	8. Create Button Partial View Part 1
 	9. Create Button Partial View Part 2
 	10. Create and Back to List Button Partial View
+	11. Create Category POST Action Method

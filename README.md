@@ -99,3 +99,4 @@ Tip
 		Created and using button partial view 
 	8. Create Button Partial View Part 1
 	9. Create Button Partial View Part 2
+	10. Create and Back to List Button Partial View

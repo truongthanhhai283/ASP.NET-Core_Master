@@ -111,8 +111,12 @@ Fix:
 	10. Create and Back to List Button Partial View
 	11. Create Category POST Action Method
 	12. Table Button Partial View
+		created _TableButtonPartial
 	13. Edit Category Get Action
 	14. Edit Category View
+		created _EditAndBacktoListButtonPartial
 	15. Edit and Back to List Button partial View
 	16. Edit Category POST Action
 	17. Delete Category Get Action
+	18. Delete Category View
+		created _DeleteAndBacktoListButtonPartialView

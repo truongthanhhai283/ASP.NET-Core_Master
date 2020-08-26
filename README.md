@@ -114,3 +114,4 @@ Fix:
 	13. Edit Category Get Action
 	14. Edit Category View
 	15. Edit and Back to List Button partial View
+	16. Edit Category POST Action

@@ -143,4 +143,6 @@ Fix:
 	
 	2. Add Sub Category Model
 		add-migration and update SubCategoryTable into Database
+		
+	3. Add Sub Category Index Action Action Method
 	

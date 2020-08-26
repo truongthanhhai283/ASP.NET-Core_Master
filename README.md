@@ -113,3 +113,4 @@ Fix:
 	12. Table Button Partial View
 	13. Edit Category Get Action
 	14. Edit Category View
+	15. Edit and Back to List Button partial View

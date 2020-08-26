@@ -3,6 +3,15 @@
 Tip
 	Icon: https://www.flaticon.com/free-icon/chili_687851?term=spicy&page=1&position=9
 
+Fix: 
+	1. 
+		a. An unhandled exception occurred while processing the request.
+		InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[ASP.NET_Core_Spice.Models.Category]',
+		but this ViewDataDictionary instance requires a model item of type 'System.Int32'.
+		
+		b. Error info: Model.Id (int) - Add partial and Not found in the partial tag
+		c. Solution: declare model="@item.Id" int partial tag
+	
 
 2. Section 2 Fundamentals and Security
 	1. Create a new project
@@ -101,3 +110,5 @@ Tip
 	9. Create Button Partial View Part 2
 	10. Create and Back to List Button Partial View
 	11. Create Category POST Action Method
+	12. Table Button Partial View
+	13. Edit Category Get Action

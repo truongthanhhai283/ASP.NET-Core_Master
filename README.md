@@ -138,3 +138,9 @@ Fix:
 	22. Details Category View Partial
 		created _DetailsAndBacktoListButtonPartialView
 	
+6. Sub Category
+	1. Introduction
+	
+	2. Add Sub Category Model
+		add-migration and update SubCategoryTable into Database
+	

@@ -150,4 +150,6 @@ Fix:
 	
 	5. SubCategory and Category View Model
 		Created ViewModel Folder
+		
+	6. SubCategory Create GET Action
 	

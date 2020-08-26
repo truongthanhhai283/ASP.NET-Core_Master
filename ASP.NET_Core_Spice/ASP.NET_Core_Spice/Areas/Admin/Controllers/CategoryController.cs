@@ -77,5 +77,20 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
             }
             return View(category);
         }
+
+        //GET - Delete
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var category = await _db.Category.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
     }
 }

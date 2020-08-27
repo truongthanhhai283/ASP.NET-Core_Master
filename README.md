@@ -212,6 +212,6 @@ Fix:
 	3. Add MenuItem Index Action: IHostingEnvironment -> IWebHosEnvironment
 		changed IWebHosEnvironment (startup) -> IHostingEnvironment
 	
-
+	4. MenuItem Index View
 
 		

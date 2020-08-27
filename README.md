@@ -209,6 +209,8 @@ Fix:
 	2. Add MenuItem Model
 		add and update MenuItem into Database
 	
+	3. Add MenuItem Index Action: IHostingEnvironment -> IWebHosEnvironment
+		changed IWebHosEnvironment (startup) -> IHostingEnvironment
 	
 
 

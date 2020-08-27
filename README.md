@@ -217,4 +217,7 @@ Fix:
 	5. MeniItem View Model and Create GET
 	
 	6. MenuItem Create View Part 1
+	
+	7. MenuItem TinyMce Plugin
+		https://www.tiny.cloud/my-account/dashboard/
 		

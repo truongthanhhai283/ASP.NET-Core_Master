@@ -7,6 +7,7 @@ using ASP.NET_Core_Spice.Models;
 using ASP.NET_Core_Spice.Models.ViewModel;
 using DocumentFormat.OpenXml.Drawing.Diagrams;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
@@ -75,6 +76,18 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
             };
 
             return View(modelVM);
+        }
+
+        [ActionName("GetSubCategory")]
+        public async Task<IActionResult> GetSubCategory(int id)
+        {
+            List<SubCategory> subCategories = new List<SubCategory>();
+
+            subCategories = await (from SubCategory in _db.SubCategory
+                             where SubCategory.CategoryId == id
+                             select SubCategory).ToListAsync();
+
+            return Json(new SelectList(subCategories, "Id","Name"));
         }
     }
 }

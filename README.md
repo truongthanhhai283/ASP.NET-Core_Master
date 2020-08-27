@@ -164,4 +164,7 @@ Fix:
 	10. TempData : Error
 	
 	11. Get Sub Category Action
+	
+	12. SubCategory Create View Part 2
+		updateSubCategoryList
 		

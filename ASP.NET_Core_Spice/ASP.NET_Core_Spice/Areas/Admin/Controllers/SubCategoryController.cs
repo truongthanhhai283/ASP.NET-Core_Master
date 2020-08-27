@@ -130,6 +130,9 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
                 }
                 else
                 {
+                    var subCatFromDb = await _db.SubCategory.FindAsync(id);
+                    subCatFromDb.Name=model.SubCategory.Name
+
                     _db.SubCategory.Add(model.SubCategory);
                     await _db.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));

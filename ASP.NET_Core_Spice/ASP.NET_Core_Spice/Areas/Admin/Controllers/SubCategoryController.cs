@@ -117,7 +117,7 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
         //POST - Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,SubCategoryAndCategoryViewModel model)
+        public async Task<IActionResult> Edit(SubCategoryAndCategoryViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -130,10 +130,9 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
                 }
                 else
                 {
-                    var subCatFromDb = await _db.SubCategory.FindAsync(id);
-                    subCatFromDb.Name=model.SubCategory.Name
-
-                    _db.SubCategory.Add(model.SubCategory);
+                    var subCatFromDb = await _db.SubCategory.FindAsync(model.SubCategory.Id);
+                    subCatFromDb.Name = model.SubCategory.Name;
+                   
                     await _db.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
@@ -147,6 +146,7 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
                 StatusMessage = StatusMessage
             };
 
+            //modelVM.SubCategory.Id = id;
             return View(modelVM);
         }
     }

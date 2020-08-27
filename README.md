@@ -12,6 +12,18 @@ Fix:
 		b. Error info: Model.Id (int) - Add partial and Not found in the partial tag
 		c. Solution: declare model="@item.Id" int partial tag
 	
+	2. 
+		a. An unhandled exception occurred while processing the request.
+			NullReferenceException: Object reference not set to an instance of an object.
+			ASP.NET_Core_Spice.Areas.Admin.Controllers.SubCategoryController.Edit(int id, SubCategoryAndCategoryViewModel model) in SubCategoryController.cs, line 134
+
+			Stack Query Cookies Headers Routing
+			NullReferenceException: Object reference not set to an instance of an object.
+			ASP.NET_Core_Spice.Areas.Admin.Controllers.SubCategoryController.Edit(int id, SubCategoryAndCategoryViewModel model) in SubCategoryController.cs
+			
+			subCatFromDb.Name = model.SubCategory.Name;
+		b. Solution: Edit POST Error Debugging
+		
 
 2. Section 2 Fundamentals and Security
 	1. Create a new project
@@ -173,4 +185,8 @@ Fix:
 	14. SubCategory Edit View
 	
 	15. Edit Category POST Action
+	
+	16. Edit POST Error Debugging
+		
+
 		

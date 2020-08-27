@@ -5,7 +5,6 @@ D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\n
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.RazorAssemblyInfo.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.RazorAssemblyInfo.cs
-D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.csprojAssemblyReference.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -480,3 +479,4 @@ D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\n
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.pdb
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.genruntimeconfig.cache
+D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SubCategory\Edit.cshtml.g.cs

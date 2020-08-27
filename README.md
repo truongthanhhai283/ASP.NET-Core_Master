@@ -189,6 +189,10 @@ Fix:
 	16. Edit POST Error Debugging
 	
 	17. Assignment 2 - Part 1 - SubCategory Details Get Action 
+	
+	18. Assignment 2 - Part 2 - SubCategory Delete Get/Post Action + View
+	
+	
 		
 
 		

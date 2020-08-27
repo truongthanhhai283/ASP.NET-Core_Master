@@ -23,8 +23,19 @@ Fix:
 			
 			subCatFromDb.Name = model.SubCategory.Name;
 		b. Solution: Edit POST Error Debugging
+	
+	3.	a. Work to enum: Severity	Code	Description	Project	File	Line	Suppression State
+			Error	CS1014	A get or set accessor expected	ASP.NET_Core_Spice	D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\Models\MenuItem.cs	20	Active
 		
-
+		b. Solution: convert Enum -> enum
+		
+	4.  Migration:
+		Introducing FOREIGN KEY constraint 'FK_MenuItem_SubCategory_SubCategoryId' on table 'MenuItem' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+		Could not create constraint or index. See previous errors.
+		
+		b. Solution: Dbcontext migration ->  onDelete: ReferentialAction.Cascade); -> onDelete: ReferentialAction.NoAction (ID
+		
+	
 2. Section 2 Fundamentals and Security
 	1. Create a new project
 	2. Csproj file
@@ -192,7 +203,13 @@ Fix:
 	
 	18. Assignment 2 - Part 2 - SubCategory Delete Get/Post Action + View
 	
+7. Menu item
+	1. Introduction   to Section
 	
-		
+	2. Add MenuItem Model
+		add and update MenuItem into Database
+	
+	
+
 
 		

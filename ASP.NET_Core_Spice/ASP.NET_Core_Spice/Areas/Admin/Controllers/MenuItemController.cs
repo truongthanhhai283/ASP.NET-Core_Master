@@ -7,7 +7,6 @@ using ASP.NET_Core_Spice.Models.ViewModel;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
 {
@@ -41,6 +40,36 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
         public IActionResult Create()
         {
             return View(MenuItemVM);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreatePOST()
+        {
+            MenuItemVM.MenuItem.SubCategoryId = Convert.ToInt32(Request.Form["SubCategoryId"].ToString());
+
+            if (!ModelState.IsValid)
+            {
+                return View(MenuItemVM);   
+            }
+
+            _db.MenuItem.Add(MenuItemVM.MenuItem);
+            await _db.SaveChangesAsync();
+
+            //work on the image saving section
+            string webRootPath = _hostingEnvironment.WebRootPath;
+            var files = HttpContext.Request.Form.Files;
+
+            var menuItemFromDb = await _db.MenuItem.FindAsync(MenuItemVM.MenuItem.Id);
+
+            if (files.Count()>0)
+            {
+                //files has been uploaded
+            }
+            else
+            {
+                //no files was been uploaded, so use default
+            }
         }
     }
 }

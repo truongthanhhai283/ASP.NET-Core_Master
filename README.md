@@ -220,4 +220,6 @@ Fix:
 	
 	7. MenuItem TinyMce Plugin
 		https://www.tiny.cloud/my-account/dashboard/
+	
+	8. MenuItem Create View Part 2
 		

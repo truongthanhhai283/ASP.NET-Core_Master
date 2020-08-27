@@ -26,8 +26,12 @@
 
         <div class="form-group row">
             <div class="col-5 offset-2">
-                <partial name="_EditAndBacktoListButtonPartial" model="Model.Id"/>
+                <partial name="_EditAndBacktoListButtonPartial" model="Model.Id" />
             </div>
         </div>
     </form>
 </div>
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

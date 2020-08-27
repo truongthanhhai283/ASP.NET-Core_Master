@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using ASP.NET_Core_Spice.Data;
+using ASP.NET_Core_Spice.Models;
 using ASP.NET_Core_Spice.Models.ViewModel;
 using ASP.NET_Core_Spice.Utility;
 using Microsoft.AspNetCore.Hosting;
@@ -82,6 +83,75 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
                 //no files was been uploaded, so use default
                 var uploads = Path.Combine(webRootPath, @"images\"+SD.DefaultFoodImage);
                 System.IO.File.Copy(uploads,webRootPath+@"\images\"+MenuItemVM.MenuItem.Id+".png");
+                menuItemFromDb.Image = @"\images\" + MenuItemVM.MenuItem.Id + ".png";
+            }
+
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        //GET - Edit
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id==null)
+            {
+                return NotFound();
+            }
+
+            MenuItemVM.MenuItem = await _db.MenuItem.Include(x => x.Category).Include(x => x.SubCategory).SingleOrDefaultAsync(x=>x.Id==id);
+            MenuItemVM.SubCategory = await _db.SubCategory.Where(x => x.CategoryId == MenuItemVM.MenuItem.CategoryId).ToListAsync();
+
+            if (MenuItemVM.MenuItem==null)
+            {
+                return NotFound();
+            }
+            return View(MenuItemVM);
+        }
+
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditPOST(int? id)
+        {
+            if (id==null)
+            {
+                return NotFound();
+            }
+            MenuItemVM.MenuItem.SubCategoryId = Convert.ToInt32(Request.Form["SubCategoryId"].ToString());
+
+            if (!ModelState.IsValid)
+            {
+                return View(MenuItemVM);
+            }
+
+            _db.MenuItem.Add(MenuItemVM.MenuItem);
+            await _db.SaveChangesAsync();
+
+            //work on the image saving section
+            string webRootPath = _hostingEnvironment.WebRootPath;
+            var files = HttpContext.Request.Form.Files;
+
+            var menuItemFromDb = await _db.MenuItem.FindAsync(MenuItemVM.MenuItem.Id);
+
+            if (files.Count() > 0)
+            {
+                //files has been uploaded
+                var uploads = Path.Combine(webRootPath, "images");
+                var extension = Path.GetExtension(files[0].FileName);
+
+                using (var filesStream = new FileStream(Path.Combine(uploads, MenuItemVM.MenuItem.Id + extension), FileMode.Create))
+                {
+                    files[0].CopyTo(filesStream);
+                }
+
+                menuItemFromDb.Image = @"\images\" + MenuItemVM.MenuItem.Id + extension;
+            }
+            else
+            {
+                //no files was been uploaded, so use default
+                var uploads = Path.Combine(webRootPath, @"images\" + SD.DefaultFoodImage);
+                System.IO.File.Copy(uploads, webRootPath + @"\images\" + MenuItemVM.MenuItem.Id + ".png");
                 menuItemFromDb.Image = @"\images\" + MenuItemVM.MenuItem.Id + ".png";
             }
 

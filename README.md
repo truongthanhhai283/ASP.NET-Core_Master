@@ -169,4 +169,6 @@ Fix:
 		updateSubCategoryList
 		
 	13. SubCategory Edit Get Action
+	
+	14. SubCategory Edit View
 		

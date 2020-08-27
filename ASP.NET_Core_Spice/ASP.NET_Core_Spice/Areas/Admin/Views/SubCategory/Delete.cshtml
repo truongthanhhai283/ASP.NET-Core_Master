@@ -2,19 +2,19 @@
 @using ASP.NET_Core_Spice.Extensions
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Delete";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
 
-<h2 class="text-info">Details Sub Category</h2>
+    <h2 class="text-info">Delete Sub Category</h2>
 <br />
 
 <partial name="_StatusMessage" model="Model.StatusMessage" />
 <div class="border backgroundWhite row">
     <div class="col-8 border-right">
-        <form asp-action="Details">
+        <form asp-action="Delete">
             <input type="hidden" asp-for="SubCategory.CategoryId" />
             <input type="hidden" asp-for="SubCategory.Id" />
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>

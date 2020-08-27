@@ -238,5 +238,9 @@ Fix:
 	
 	14. Assignment 3 - Part 1 -  MenuItem Details
 	
+	15. Assignment 3 - Part 2 -  MenuItem Delete
+	
+	16. Reviews
+	
 	
 	

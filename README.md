@@ -213,5 +213,6 @@ Fix:
 		changed IWebHosEnvironment (startup) -> IHostingEnvironment
 	
 	4. MenuItem Index View
-
+	
+	5. MeniItem View Model and Create GET
 		

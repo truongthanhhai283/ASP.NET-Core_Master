@@ -35,7 +35,10 @@ Fix:
 		
 		b. Solution: Dbcontext migration ->  onDelete: ReferentialAction.Cascade); -> onDelete: ReferentialAction.NoAction (ID
 		
+	5. An unhandled exception occurred while processing the request.
+		ArgumentNullException: Value cannot be null. (Parameter 'source')
 	
+		b. Solution: add ActionName
 2. Section 2 Fundamentals and Security
 	1. Create a new project
 	2. Csproj file
@@ -224,3 +227,5 @@ Fix:
 	8. MenuItem Create View Part 2
 		
 	9. MenuItem Create POST Part 1
+	
+	10. MenuItem Create POST Part 2

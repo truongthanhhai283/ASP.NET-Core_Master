@@ -155,3 +155,7 @@ Fix:
 	
 	7. Extension Methods
 		Created new folder name Extensions -> createed class IEnumerableExtension + ReflectionExtension
+		
+	8. SubCategory  Create View Part 1
+		Created view create view + dropdown items
+		

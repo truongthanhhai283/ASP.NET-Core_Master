@@ -231,3 +231,5 @@ Fix:
 	10. MenuItem Create POST Part 2
 	
 	11. MenuItem Edit GET Action
+	
+	12. MenuItem Edit View

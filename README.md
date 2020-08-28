@@ -265,3 +265,8 @@ Fix:
 	
 	10. Assignment 4 - Part 5 - Fix Something in MeniItem part
 	
+9. Landing Page
+	1. Introduction
+	
+	2. Index View Model
+	

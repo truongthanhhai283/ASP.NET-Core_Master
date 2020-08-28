@@ -319,3 +319,5 @@ Fix:
 	12. Lock and Unlock Users
 	
 	13. Authorization Update
+	
+	14. Authorization

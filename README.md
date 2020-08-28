@@ -272,3 +272,5 @@ Fix:
 	
 	3. Home Index Action
 	
+	4. Home Page
+	

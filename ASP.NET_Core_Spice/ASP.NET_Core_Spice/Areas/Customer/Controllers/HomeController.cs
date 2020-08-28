@@ -24,11 +24,6 @@ namespace ASP.NET_Core_Spice.Controllers
 
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
         public async Task<IActionResult> Index()
         {
             IndexViewModel IndexVM = new IndexViewModel()

@@ -13,4 +13,4 @@ namespace ASP.NET_Core_Spice.Models.ViewModel
 
     }
 }
-}
+

@@ -274,3 +274,5 @@ Fix:
 	
 	4. Home Page
 	
+	5. Home View Designing Part 1
+	

@@ -294,4 +294,6 @@ Fix:
 	2. Add Properties to Identity User
 		add-migration addApplicationUserTableIntoDatabase
 		Modified Register.cshtml.cs
+		
+	3. Changes To Register Page
 	

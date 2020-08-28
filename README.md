@@ -317,3 +317,5 @@ Fix:
 	11. Register Employee Accounts
 	
 	12. Lock and Unlock Users
+	
+	13. Authorization Update

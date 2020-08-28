@@ -251,5 +251,8 @@ Fix:
 	3. Coupon Index View and Actions
 	
 	4. Coupon Create View and GET Action
+	
+	5. Coupon Create POST Action Method - savine image into database
+		multipe selection image saving into database
 		
 	

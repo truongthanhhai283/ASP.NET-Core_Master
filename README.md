@@ -250,3 +250,6 @@ Fix:
 	
 	3. Coupon Index View and Actions
 	
+	4. Coupon Create View and GET Action
+		
+	

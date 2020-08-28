@@ -23,5 +23,11 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
             var data = await _db.Coupon.ToArrayAsync();
             return View(data);
         }
+
+        //GET - Create
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

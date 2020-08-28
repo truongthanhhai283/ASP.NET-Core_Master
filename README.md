@@ -321,3 +321,5 @@ Fix:
 	13. Authorization Update
 	
 	14. Authorization
+	
+	15. Modifying Display NavBar

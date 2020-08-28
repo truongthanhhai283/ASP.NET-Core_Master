@@ -311,3 +311,5 @@ Fix:
 	8. Users Controller
 	
 	9. Users Index Action and View
+	
+	10. Radio Buttons for Roles

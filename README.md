@@ -255,4 +255,11 @@ Fix:
 	5. Coupon Create POST Action Method - savine image into database
 		multipe selection image saving into database
 		
+	6. Assignment 4 - Part 1 - Edit Get action
+	
+	7. Assignment 4 - Part 2 - Edit POST action
+	
+	8. Assignment 4 - Part 3 - Details action
+	
+		
 	

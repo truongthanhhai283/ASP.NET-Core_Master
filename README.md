@@ -242,5 +242,8 @@ Fix:
 	
 	16. Reviews
 	
+8. Coupon
+	1. Introduction
 	
-	
+	2. Add coupon Model
+		add-migration and update addCouponTableIntoDatabase

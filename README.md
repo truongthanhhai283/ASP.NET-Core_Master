@@ -297,3 +297,6 @@ Fix:
 		
 	3. Changes To Register Page
 	
+	4. Register Page POST Handler Part 1
+		
+	

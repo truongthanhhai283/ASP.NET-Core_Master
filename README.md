@@ -278,3 +278,5 @@ Fix:
 	
 	6. Home View Designing Part 2
 	
+	7. Home View Designing Part 3
+	

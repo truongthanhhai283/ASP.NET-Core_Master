@@ -315,3 +315,5 @@ Fix:
 	10. Radio Buttons for Roles
 	
 	11. Register Employee Accounts
+	
+	12. Lock and Unlock Users

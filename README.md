@@ -309,3 +309,5 @@ Fix:
 	7. LoginRegister Page Error
 	
 	8. Users Controller
+	
+	9. Users Index Action and View

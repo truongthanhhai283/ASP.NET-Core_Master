@@ -247,3 +247,6 @@ Fix:
 	
 	2. Add coupon Model
 		add-migration and update addCouponTableIntoDatabase
+	
+	3. Coupon Index View and Actions
+	

@@ -307,3 +307,5 @@ Fix:
 	6. Register Page POST Handler Part 2
 		
 	7. LoginRegister Page Error
+	
+	8. Users Controller

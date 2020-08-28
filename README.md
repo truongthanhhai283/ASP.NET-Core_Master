@@ -2,6 +2,8 @@
 
 Tip
 	Icon: https://www.flaticon.com/free-icon/chili_687851?term=spicy&page=1&position=9
+	
+	Breadcrumb snippet
 
 Fix: 
 	1. 
@@ -282,4 +284,14 @@ Fix:
 	
 	8. Home View Designing Part 4
 	
+	9. Home View Designing Part 5
+	
+	10. Home View Designing Part 6
+	
+10. Users Registration
+	1. Introduction
+	
+	2. Add Properties to Identity User
+		add-migration addApplicationUserTableIntoDatabase
+		Modified Register.cshtml.cs
 	

@@ -313,3 +313,5 @@ Fix:
 	9. Users Index Action and View
 	
 	10. Radio Buttons for Roles
+	
+	11. Register Employee Accounts

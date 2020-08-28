@@ -30,13 +30,13 @@ namespace ASP.NET_Core_Spice.Areas.Identity.Pages.Account
         {
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
-            if (returnUrl != null)
+            if (returnUrl == null)
             {
                 return LocalRedirect(returnUrl);
             }
             else
             {
-                return RedirectToPage();
+                return RedirectToPage("Logout");
             }
         }
     }

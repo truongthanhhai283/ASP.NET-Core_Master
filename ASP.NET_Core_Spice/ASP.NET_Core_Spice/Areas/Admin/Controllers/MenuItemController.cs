@@ -92,18 +92,18 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
         }
 
 
-        //GET - Edit
+        //GET - EDIT
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id==null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            MenuItemVM.MenuItem = await _db.MenuItem.Include(x => x.Category).Include(x => x.SubCategory).SingleOrDefaultAsync(x=>x.Id==id);
-            MenuItemVM.SubCategory = await _db.SubCategory.Where(x => x.CategoryId == MenuItemVM.MenuItem.CategoryId).ToListAsync();
+            MenuItemVM.MenuItem = await _db.MenuItem.Include(m => m.Category).Include(m => m.SubCategory).SingleOrDefaultAsync(m => m.Id == id);
+            MenuItemVM.SubCategory = await _db.SubCategory.Where(s => s.CategoryId == MenuItemVM.MenuItem.CategoryId).ToListAsync();
 
-            if (MenuItemVM.MenuItem==null)
+            if (MenuItemVM.MenuItem == null)
             {
                 return NotFound();
             }
@@ -114,7 +114,7 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditPOST(int? id)
         {
-            if (id==null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -125,19 +125,19 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
                 MenuItemVM.SubCategory = await _db.SubCategory.Where(s => s.CategoryId == MenuItemVM.MenuItem.CategoryId).ToListAsync();
                 return View(MenuItemVM);
             }
-                
+
             //Work on the image saving section
+
             string webRootPath = _hostingEnvironment.WebRootPath;
             var files = HttpContext.Request.Form.Files;
 
             var menuItemFromDb = await _db.MenuItem.FindAsync(MenuItemVM.MenuItem.Id);
 
-            if (files.Count() > 0)
+            if (files.Count > 0)
             {
-                //New image has been uploaded
+                //New Image has been uploaded
                 var uploads = Path.Combine(webRootPath, "images");
-                var extension = Path.GetExtension(files[0].FileName);
-
+                var extension_new = Path.GetExtension(files[0].FileName);
 
                 //Delete the original file
                 var imagePath = Path.Combine(webRootPath, menuItemFromDb.Image.TrimStart('\\'));
@@ -148,13 +148,13 @@ namespace ASP.NET_Core_Spice.Areas.Admin.Controllers
                 }
 
                 //we will upload the new file
-                using (var filesStream = new FileStream(Path.Combine(uploads, MenuItemVM.MenuItem.Id + extension), FileMode.Create))
+                using (var filesStream = new FileStream(Path.Combine(uploads, MenuItemVM.MenuItem.Id + extension_new), FileMode.Create))
                 {
                     files[0].CopyTo(filesStream);
                 }
-
-                menuItemFromDb.Image = @"\images\" + MenuItemVM.MenuItem.Id + extension;
+                menuItemFromDb.Image = @"\images\" + MenuItemVM.MenuItem.Id + extension_new;
             }
+
             menuItemFromDb.Name = MenuItemVM.MenuItem.Name;
             menuItemFromDb.Description = MenuItemVM.MenuItem.Description;
             menuItemFromDb.Price = MenuItemVM.MenuItem.Price;

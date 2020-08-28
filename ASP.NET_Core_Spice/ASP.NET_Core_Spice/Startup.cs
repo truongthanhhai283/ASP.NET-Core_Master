@@ -31,7 +31,10 @@ namespace ASP.NET_Core_Spice
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+
+            //fix: Fix: Unable to resolve service for type Microsoft.AspNetCore.Identity. RoleManager
+            //add AddRoles<IdentityRole>()
+            services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();

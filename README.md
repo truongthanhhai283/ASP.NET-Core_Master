@@ -41,6 +41,11 @@ Fix:
 		ArgumentNullException: Value cannot be null. (Parameter 'source')
 	
 		b. Solution: add ActionName
+		
+	6. InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.RoleManager`1[Microsoft.AspNetCore.Identity.IdentityRole]' 
+		while attempting to activate 'ASP.NET_Core_Spice.Areas.Identity.Pages.Account.RegisterModel'.
+			
+		Solution:  services.AddDefaultIdentity<IdentityUser>() -> services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()
 2. Section 2 Fundamentals and Security
 	1. Create a new project
 	2. Csproj file
@@ -298,5 +303,7 @@ Fix:
 	3. Changes To Register Page
 	
 	4. Register Page POST Handler Part 1
+	
+	6. Register Page POST Handler Part 2
 		
 	

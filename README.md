@@ -306,4 +306,4 @@ Fix:
 	
 	6. Register Page POST Handler Part 2
 		
-	
+	7. LoginRegister Page Error

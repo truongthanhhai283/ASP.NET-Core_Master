@@ -270,3 +270,5 @@ Fix:
 	
 	2. Index View Model
 	
+	3. Home Index Action
+	

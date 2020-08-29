@@ -370,3 +370,5 @@ Fix:
 		
 	4. Order Details Cart View Model
 		Create Order Details Cart View Model
+		
+	5. Cart Controller Index Action

@@ -410,4 +410,6 @@ Fix:
 	
 	9. Apply Coupon
 	
+	10. Remove Coupon
+	
 	

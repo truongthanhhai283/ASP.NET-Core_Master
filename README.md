@@ -347,3 +347,5 @@ Fix:
 	6. Details POST Action
 	
 	7. Configure Sessions
+	
+	8. Sessions Part 1

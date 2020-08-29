@@ -364,3 +364,6 @@ Fix:
 	
 	2. Order Header Model
 		Create OrderHeader Model
+		
+	3. Order Details Model
+		add-migration and update Order And OrderDetails Table Into Database

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASP.NET_Core_Spice.Models.ViewModel
+namespace ASP.NET_Core_Spice.Models.ViewModels
 {
     public class IndexViewModel
     {

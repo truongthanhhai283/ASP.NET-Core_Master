@@ -4,12 +4,14 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using ASP.NET_Core_Spice.Data;
-using ASP.NET_Core_Spice.Models.ViewModel;
+using ASP.NET_Core_Spice.Models.ViewModels;
 using ASP.NET_Core_Spice.Utility;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class CartController : Controller
     {
         private readonly ApplicationDbContext _db;

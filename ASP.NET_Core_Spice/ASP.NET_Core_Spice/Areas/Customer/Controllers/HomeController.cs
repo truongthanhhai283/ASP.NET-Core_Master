@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ASP.NET_Core_Spice.Models;
 using ASP.NET_Core_Spice.Data;
-using ASP.NET_Core_Spice.Models.ViewModel;
+using ASP.NET_Core_Spice.Models.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;

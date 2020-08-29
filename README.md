@@ -45,7 +45,15 @@ Fix:
 	6. InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.RoleManager`1[Microsoft.AspNetCore.Identity.IdentityRole]' 
 		while attempting to activate 'ASP.NET_Core_Spice.Areas.Identity.Pages.Account.RegisterModel'.
 			
-		Solution:  services.AddDefaultIdentity<IdentityUser>() -> services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()
+		Solution:  services.AddDefaultIdentity<IdentityUser>() -> services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()44
+		
+	7. 	An unhandled exception occurred while processing the request.
+		InvalidOperationException: Session has not been configured for this application or request.
+		Microsoft.AspNetCore.Http.DefaultHttpContext.get_Session()
+		
+		b. solution
+		
+		
 2. Section 2 Fundamentals and Security
 	1. Create a new project
 	2. Csproj file
@@ -335,3 +343,5 @@ Fix:
 	4. Details View Part 1
 	
 	5. Details View Part 2
+	
+	6. Details POST Action

@@ -328,3 +328,6 @@ Fix:
 	1. Introduction
 	
 	2. Add Shopping Cart Model
+		add-migration and update addShoppingCartTableIntoDatabase
+	
+	3. Add Details Get Action Method

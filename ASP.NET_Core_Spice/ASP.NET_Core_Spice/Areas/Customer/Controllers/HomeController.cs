@@ -9,6 +9,7 @@ using ASP.NET_Core_Spice.Models;
 using ASP.NET_Core_Spice.Data;
 using ASP.NET_Core_Spice.Models.ViewModel;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASP.NET_Core_Spice.Controllers
 {
@@ -34,6 +35,20 @@ namespace ASP.NET_Core_Spice.Controllers
 
             };
             return View(IndexVM);
+        }
+
+        [Authorize]
+        public async Task<IActionResult> Details(int id)
+        {
+            var menuItemFromDb = await _db.MenuItem.Include(m => m.Category).Include(m => m.SubCategory).Where(m => m.Id == id).FirstOrDefaultAsync();
+
+            ShoppingCart cartObj = new ShoppingCart()
+            {
+                MenuItem = menuItemFromDb,
+                MenuItemId = menuItemFromDb.Id
+            };
+
+            return View(cartObj);
         }
 
         public IActionResult Privacy()

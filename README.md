@@ -408,4 +408,6 @@ Fix:
 	
 	8. Shopping Cart Index Part 3
 	
+	9. Apply Coupon
+	
 	

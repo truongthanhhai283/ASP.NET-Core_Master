@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ASP.NET_Core_Spice.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace ASP.NET_Core_Spice.Utility
         public const string CustomerEndUser = "Customer";
 
         public const string ssShoppingCartCount = "ssCartCount";
+        public const string ssCouponCode = "ssCouponCode";
 
         public static string ConvertToRawHtml(string source)
         {
@@ -42,6 +44,36 @@ namespace ASP.NET_Core_Spice.Utility
                 }
             }
             return new string(array, 0, arrayIndex);
+        }
+
+        public static double DiscountedPrice(Coupon couponFromDb, double OriginalOrderTotal)
+        {
+            if (couponFromDb == null)
+            {
+                return OriginalOrderTotal;
+            }
+            else
+            {
+                if (couponFromDb.MinimumAmount > OriginalOrderTotal)
+                {
+                    return OriginalOrderTotal;
+                }
+                else
+                {
+                    //everything is valid
+                    if (Convert.ToInt32(couponFromDb.CouponType) == (int)Coupon.EcouponType.Dollar)
+                    {
+                        //$10 off $100
+                        return Math.Round(OriginalOrderTotal - couponFromDb.Discount, 2);
+                    }
+                    if (Convert.ToInt32(couponFromDb.CouponType) == (int)Coupon.EcouponType.Percent)
+                    {
+                        //10% off $100
+                        return Math.Round(OriginalOrderTotal - (OriginalOrderTotal * couponFromDb.Discount / 100), 2);
+                    }
+                }
+            }
+            return OriginalOrderTotal;
         }
 
     }

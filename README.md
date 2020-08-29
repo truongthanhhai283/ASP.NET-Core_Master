@@ -345,3 +345,5 @@ Fix:
 	5. Details View Part 2
 	
 	6. Details POST Action
+	
+	7. Configure Sessions

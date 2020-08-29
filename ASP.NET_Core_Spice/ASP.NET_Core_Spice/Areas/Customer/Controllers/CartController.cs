@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using ASP.NET_Core_Spice.Data;
+using ASP.NET_Core_Spice.Models;
 using ASP.NET_Core_Spice.Models.ViewModels;
 using ASP.NET_Core_Spice.Utility;
 using Microsoft.AspNetCore.Http;

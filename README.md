@@ -416,4 +416,6 @@ Fix:
 	
 	12. Cart Summary Action Method
 	
+	13. Order Summary View Part 1
+	
 	

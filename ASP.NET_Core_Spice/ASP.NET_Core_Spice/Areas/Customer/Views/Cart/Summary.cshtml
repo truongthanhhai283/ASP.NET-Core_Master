@@ -89,7 +89,7 @@
                                                 <span class="text-muted">$@(details.MenuItem.Price * details.Count)</span>
                                                 @{ total += (details.MenuItem.Price * details.Count); }
                                             </li>
-}
+                                        }
                                         @if (Model.OrderHeader.CouponCode != null)
                                         {
                                             <li class="list-group-item d-flex justify-content-between">
@@ -99,7 +99,7 @@
                                                 </div>
                                                 <span class="text-success">-$@(total - Model.OrderHeader.OrderTotal)</span>
                                             </li>
-}
+                                        }
                                         <li class="list-group-item d-flex justify-content-between bg-light">
                                             <small class="text-info">Total (USD)</small>
                                             <strong class="text-info">$@(Model.OrderHeader.OrderTotal)</strong>
@@ -120,3 +120,11 @@
         <div class="backgroundWhiteBorder"> No items added to the shopping cart...</div>}
 </form>
 
+@section Scripts{
+    <script type="text/javascript">
+        $(function () {
+           
+            $("#datepicker").datepicker({ minDate: 0, maxDate: "+1W" });
+        });
+    </script>
+}

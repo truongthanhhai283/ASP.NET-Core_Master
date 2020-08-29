@@ -406,4 +406,6 @@ Fix:
 	
 	7. Shopping Cart Index Part 2
 	
+	8. Shopping Cart Index Part 3
+	
 	

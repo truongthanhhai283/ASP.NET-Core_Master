@@ -412,4 +412,6 @@ Fix:
 	
 	10. Remove Coupon
 	
+	11. Shopping Cart Count
+	
 	

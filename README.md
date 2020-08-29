@@ -331,3 +331,5 @@ Fix:
 		add-migration and update addShoppingCartTableIntoDatabase
 	
 	3. Add Details Get Action Method
+	
+	4. Details View Part 1

@@ -414,4 +414,6 @@ Fix:
 	
 	11. Shopping Cart Count
 	
+	12. Cart Summary Action Method
+	
 	

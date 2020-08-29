@@ -123,5 +123,49 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+
+        public async Task<IActionResult> Summary()
+        {
+
+            detailCart = new OrderDetailsCart()
+            {
+                OrderHeader = new Models.OrderHeader()
+            };
+
+            detailCart.OrderHeader.OrderTotal = 0;
+
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            ApplicationUser applicationUser = await _db.ApplicationUser.Where(c => c.Id == claim.Value).FirstOrDefaultAsync();
+            var cart = _db.ShoppingCart.Where(c => c.ApplicationUserId == claim.Value);
+            if (cart != null)
+            {
+                detailCart.listCart = cart.ToList();
+            }
+
+            foreach (var list in detailCart.listCart)
+            {
+                list.MenuItem = await _db.MenuItem.FirstOrDefaultAsync(m => m.Id == list.MenuItemId);
+                detailCart.OrderHeader.OrderTotal = detailCart.OrderHeader.OrderTotal + (list.MenuItem.Price * list.Count);
+
+            }
+            detailCart.OrderHeader.OrderTotalOriginal = detailCart.OrderHeader.OrderTotal;
+            detailCart.OrderHeader.PickupName = applicationUser.Name;
+            detailCart.OrderHeader.PhoneNumber = applicationUser.PhoneNumber;
+            detailCart.OrderHeader.PickUpTime = DateTime.Now;
+
+
+            if (HttpContext.Session.GetString(SD.ssCouponCode) != null)
+            {
+                detailCart.OrderHeader.CouponCode = HttpContext.Session.GetString(SD.ssCouponCode);
+                var couponFromDb = await _db.Coupon.Where(c => c.Name.ToLower() == detailCart.OrderHeader.CouponCode.ToLower()).FirstOrDefaultAsync();
+                detailCart.OrderHeader.OrderTotal = SD.DiscountedPrice(couponFromDb, detailCart.OrderHeader.OrderTotalOriginal);
+            }
+
+
+            return View(detailCart);
+
+        }
     }
 }

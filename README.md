@@ -333,3 +333,5 @@ Fix:
 	3. Add Details Get Action Method
 	
 	4. Details View Part 1
+	
+	5. Details View Part 2

@@ -367,3 +367,6 @@ Fix:
 		
 	3. Order Details Model
 		add-migration and update Order And OrderDetails Table Into Database
+		
+	4. Order Details Cart View Model
+		Create Order Details Cart View Model

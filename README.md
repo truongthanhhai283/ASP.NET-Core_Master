@@ -323,3 +323,8 @@ Fix:
 	14. Authorization
 	
 	15. Modifying Display NavBar
+	
+11. Shopping Cart
+	1. Introduction
+	
+	2. Add Shopping Cart Model

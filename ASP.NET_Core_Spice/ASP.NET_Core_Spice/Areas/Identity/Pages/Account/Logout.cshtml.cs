@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ASP.NET_Core_Spice.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -31,7 +32,7 @@ namespace ASP.NET_Core_Spice.Areas.Identity.Pages.Account
         {
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
-            HttpContext.Session.SetInt32("ssCartCount", 0);
+            HttpContext.Session.SetInt32(SD.ssShoppingCartCount, 0);
             if (returnUrl == null)
             {
                 return LocalRedirect(returnUrl);

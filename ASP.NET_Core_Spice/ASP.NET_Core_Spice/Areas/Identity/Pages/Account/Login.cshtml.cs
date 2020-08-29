@@ -15,6 +15,7 @@ using ASP.NET_Core_Spice.Data;
 using ASP.NET_Core_Spice.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
+using ASP.NET_Core_Spice.Utility;
 
 namespace ASP.NET_Core_Spice.Areas.Identity.Pages.Account
 {
@@ -87,7 +88,7 @@ namespace ASP.NET_Core_Spice.Areas.Identity.Pages.Account
                 {
                     var user = await _db.Users.Where(u => u.Email == Input.Email).FirstOrDefaultAsync();
                     List<ShoppingCart> lstShoppingCart = await _db.ShoppingCart.Where(u => u.ApplicationUserId == user.Id).ToListAsync();
-                    HttpContext.Session.SetInt32("ssCartCount", lstShoppingCart.Count);
+                    HttpContext.Session.SetInt32(SD.ssShoppingCartCount, lstShoppingCart.Count);
 
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);

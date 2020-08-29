@@ -52,6 +52,13 @@ Fix:
 		Microsoft.AspNetCore.Http.DefaultHttpContext.get_Session()
 		
 		b. solution
+			add app.UseSession();
+			add 
+			services.AddSession(options => {
+				options.Cookie.IsEssential = true;
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+            });
 		
 		
 2. Section 2 Fundamentals and Security
@@ -349,3 +356,5 @@ Fix:
 	7. Configure Sessions
 	
 	8. Sessions Part 1
+	
+	9. Sessions Part 2

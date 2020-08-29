@@ -403,3 +403,7 @@ Fix:
 	5. Cart Controller Index Action
 	
 	6. Shopping Cart Index Part 1
+	
+	7. Shopping Cart Index Part 2
+	
+	

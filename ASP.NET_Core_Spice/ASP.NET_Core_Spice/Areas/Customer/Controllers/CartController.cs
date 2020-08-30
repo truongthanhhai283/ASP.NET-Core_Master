@@ -20,7 +20,7 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
         private readonly ApplicationDbContext _db;
 
         [BindProperty]
-        public OrderDetailsCart detailCart { get; set; }
+        public OrderDetailsCartViewModel detailCart { get; set; }
 
         public CartController(ApplicationDbContext db)
         {
@@ -29,7 +29,7 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
 
         public async Task<IActionResult> Index()
         {
-            detailCart = new OrderDetailsCart()
+            detailCart = new OrderDetailsCartViewModel()
             {
                 OrderHeader = new Models.OrderHeader()
             };
@@ -130,7 +130,7 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
         public async Task<IActionResult> Summary()
         {
 
-            detailCart = new OrderDetailsCart()
+            detailCart = new OrderDetailsCartViewModel()
             {
                 OrderHeader = new Models.OrderHeader()
             };

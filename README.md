@@ -1,6 +1,6 @@
 # ASP.NET-Core_Master\
 
-Tip
+Tips
 	Icon: https://www.flaticon.com/free-icon/chili_687851?term=spicy&page=1&position=9
 	
 	Breadcrumb snippet
@@ -35,6 +35,8 @@ Tip
 		}
 
 	Stripe: https://dashboard.stripe.com/test/apikeys, https://stripe.com/docs/testing
+	
+	jQuery Modal
 
 Fix: 
 	1. 
@@ -462,4 +464,6 @@ Fix:
 	12. PageLinkTagHelper
 	
 	13. Modify Order History Get Method for Pagination
+	
+	14. Consume Paging Tag Helper
 	

@@ -426,3 +426,5 @@ Fix:
 	
 	17. Order Summary Validations
 	
+	18. Order Summary Post Part 1
+	

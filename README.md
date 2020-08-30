@@ -459,3 +459,5 @@ Fix:
 	
 	11. PagingInfo Model
 	
+	12. PageLinkTagHelper
+	

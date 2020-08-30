@@ -34,7 +34,7 @@ Tip
 			return new string(array, 0, arrayIndex);
 		}
 
-	Stripe: https://dashboard.stripe.com/test/apikeys
+	Stripe: https://dashboard.stripe.com/test/apikeys, https://stripe.com/docs/testing
 
 Fix: 
 	1. 
@@ -433,4 +433,6 @@ Fix:
 	20. Adding Stripe to Project: install nuget Stripe.net
 	
 	21. Stripe UI
+	
+	22. Stripe Payment Posting
 	

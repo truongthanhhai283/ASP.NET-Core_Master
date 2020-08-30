@@ -16,6 +16,7 @@ using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using ASP.NET_Core_Spice.Service;
 using Stripe;
+using ASP.NET_Core_Spice.Utility;
 
 namespace ASP.NET_Core_Spice
 {
@@ -42,7 +43,7 @@ namespace ASP.NET_Core_Spice
 
             services.AddSingleton<IEmailSender,EmailSender>();
 
-
+            services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
 
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();

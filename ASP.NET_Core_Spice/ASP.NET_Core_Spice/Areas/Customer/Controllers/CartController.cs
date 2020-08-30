@@ -10,6 +10,7 @@ using ASP.NET_Core_Spice.Utility;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Stripe;
 
 namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
 {
@@ -224,6 +225,38 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
             HttpContext.Session.SetInt32(SD.ssShoppingCartCount, 0);
             await _db.SaveChangesAsync();
 
+            var options = new ChargeCreateOptions
+            {
+                Amount = Convert.ToInt32(detailCart.OrderHeader.OrderTotal * 100),
+                Currency = "usd",
+                Description = "Order ID : " + detailCart.OrderHeader.Id,
+                Source = stripeToken
+
+            };
+
+            var service = new ChargeService();
+            Charge charge = service.Create(options);
+
+            if (charge.BalanceTransactionId == null)
+            {
+                detailCart.OrderHeader.PaymentStatus = SD.PaymentStatusRejected;
+            }
+            else
+            {
+                detailCart.OrderHeader.TransactionId = charge.BalanceTransactionId;
+            }
+
+            if (charge.Status.ToLower() == "succeeded")
+            {
+                detailCart.OrderHeader.PaymentStatus = SD.PaymentStatusApproved;
+                detailCart.OrderHeader.Status = SD.StatusSubmitted;
+            }
+            else
+            {
+                detailCart.OrderHeader.PaymentStatus = SD.PaymentStatusRejected;
+            }
+
+            await _db.SaveChangesAsync();
             return RedirectToAction("Index", "Home");
             //return RedirectToAction("Confirm","Order",new { id=detailCart.OrderHeader.Id});
         }

@@ -72,7 +72,7 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
             };
             orderDetailsViewModel.OrderHeader.ApplicationUser = await _db.ApplicationUser.FirstOrDefaultAsync(u => u.Id == orderDetailsViewModel.OrderHeader.UserId);
 
-            return PartialView("_IndividualOrderDetails", orderDetailsViewModel);
+            return PartialView("_IndividualOrderDetailsPartial", orderDetailsViewModel);
         }
     }
 }

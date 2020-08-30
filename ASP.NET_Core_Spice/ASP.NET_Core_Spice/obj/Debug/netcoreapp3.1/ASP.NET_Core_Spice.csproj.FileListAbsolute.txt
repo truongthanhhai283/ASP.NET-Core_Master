@@ -499,3 +499,6 @@ D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\n
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.pdb
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.genruntimeconfig.cache
+D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.csprojAssemblyReference.cache
+D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_IndividualOrderDetailsPartial.cshtml.g.cs
+D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\OrderHistory.cshtml.g.cs

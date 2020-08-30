@@ -449,3 +449,5 @@ Fix:
 	
 	6. Order History Action Method
 	
+	7. Order History View Part 1
+	

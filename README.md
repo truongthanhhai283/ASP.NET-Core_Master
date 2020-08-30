@@ -457,3 +457,5 @@ Fix:
 	
 	10. Order History View Part 3
 	
+	11. PagingInfo Model
+	

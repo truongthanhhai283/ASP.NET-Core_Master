@@ -440,3 +440,5 @@ Fix:
 	1. Introduction
 	
 	2. Order Confirm GET Action
+	
+	3. Order Confirm View

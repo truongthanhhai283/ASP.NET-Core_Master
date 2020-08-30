@@ -17,14 +17,15 @@
 
     @if (Model.OrderHeader != null)
     {
-        <div style="color:maroon" class="p-3">
-            Your order has been confirmed! Please see the order summary below.
-            <br />
-            Feel free to contact us if you have any questions.
-        </div>    
-    }
-    else
-    {
-     <div class="text-danger">Error... Please try again.</div>}
+<div style="color:maroon" class="p-3">
+    Your order has been confirmed! Please see the order summary below.
+    <br />
+    Feel free to contact us if you have any questions.
+</div>
+<partial name="_IndividualOrderDetailsPartial" model="Model" />
+}
+else
+{
+<div class="text-danger">Error... Please try again.</div>}
 </div>
 

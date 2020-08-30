@@ -442,3 +442,5 @@ Fix:
 	2. Order Confirm GET Action
 	
 	3. Order Confirm View
+	
+	4. Individual Order Details Part 1

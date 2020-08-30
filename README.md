@@ -424,4 +424,5 @@ Fix:
 	
 	16. Date and Time Relation
 	
+	17. Order Summary Validations
 	

@@ -453,3 +453,5 @@ Fix:
 	
 	8. Get Order Details Action (Returns Partial View)
 	
+	9. Order History View Part 2
+	

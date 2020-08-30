@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using ASP.NET_Core_Spice.Service;
+using Stripe;
 
 namespace ASP.NET_Core_Spice
 {
@@ -40,6 +41,8 @@ namespace ASP.NET_Core_Spice
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddSingleton<IEmailSender,EmailSender>();
+
+
 
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();
@@ -79,6 +82,10 @@ namespace ASP.NET_Core_Spice
 
             app.UseRouting();
 
+            StripeConfiguration.ApiKey = Configuration.GetSection("Stripe")["SecretKey"];
+
+            //.NET Core 2.2
+            //StripeConfiguration.SetApiKey(Configuration.GetSection("Stripe")["SecretKey"]);
             app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();

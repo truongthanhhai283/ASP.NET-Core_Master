@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+yTTSc5tLDfjILqCQgzfE5+9as8hzkS+mdW8MwFcYC7k+CK7s/+awmor8gmqvP1mpTFPDGCDkJLz0COP+wsgYQ==",
+  "dgSpecHash": "JrutK7cuO2SZ91O4nZlhGGJtU2CJVi/dAkSHsdGPSlLrZdwRWpXMvipO6X8whT7fNjjL8LVCr/6Qm44RAUP41g==",
   "success": true,
   "projectFilePath": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET_Core_Spice\\ASP.NET_Core_Spice\\ASP.NET_Core_Spice.csproj",
   "expectedPackageFiles": [
@@ -84,6 +84,7 @@
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\TruongThanhHai\\.nuget\\packages\\stripe.net\\37.35.0\\stripe.net.37.35.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

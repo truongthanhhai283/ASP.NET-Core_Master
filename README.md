@@ -34,6 +34,8 @@ Tip
 			return new string(array, 0, arrayIndex);
 		}
 
+	Stripe: https://dashboard.stripe.com/test/apikeys
+
 Fix: 
 	1. 
 		a. An unhandled exception occurred while processing the request.
@@ -427,4 +429,7 @@ Fix:
 	17. Order Summary Validations
 	
 	18. Order Summary Post Part 1
+	
+	20. Adding Stripe to Project: install nuget stripe
+	
 	

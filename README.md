@@ -436,3 +436,7 @@ Fix:
 	
 	22. Stripe Payment Posting
 	
+13. Manage Order
+	1. Introduction
+	
+	2. Order Confirm GET Action

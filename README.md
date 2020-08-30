@@ -430,6 +430,7 @@ Fix:
 	
 	18. Order Summary Post Part 1
 	
-	20. Adding Stripe to Project: install nuget stripe
+	20. Adding Stripe to Project: install nuget Stripe.net
 	
+	21. Stripe UI
 	

@@ -444,3 +444,5 @@ Fix:
 	3. Order Confirm View
 	
 	4. Individual Order Details Part 1
+	
+	5. Individual Order Details Part 2

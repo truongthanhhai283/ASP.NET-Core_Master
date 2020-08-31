@@ -500,6 +500,8 @@ Fix:
 	5. Order Pickup Button
 	
 	6. Order Pickup Completed
+	
+	7. Roles Login Check
 			
 		
 	

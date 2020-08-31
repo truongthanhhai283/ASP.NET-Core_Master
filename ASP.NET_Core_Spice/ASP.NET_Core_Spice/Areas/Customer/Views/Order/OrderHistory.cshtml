@@ -8,11 +8,8 @@
 <div class="border backgroundWhite">
     <div class="row">
         <div class="col-6">
-            <h2 class="text-info">
-                Order Histories
-            </h2>
+            <h2 class="text-info"> Past Order List</h2>
         </div>
-
         <div class="col-6 text-right">
             <partial name="_CreateButtonPartial" />
         </div>
@@ -65,17 +62,15 @@
                         <td>
                             @Html.DisplayFor(m => item.OrderDetails.Count)
                         </td>
-                        <td style="display:flex;justify-content:space-between">
+                        <td>
                             <button type="submit" class="btn btn-success anchorDetail" data-id="@item.OrderHeader.Id" data-toggle="modal">
                                 <i class="far fa-list-alt"></i> Details
                             </button>
-
                             @if (item.OrderHeader.Status == SD.StatusSubmitted || item.OrderHeader.Status == SD.StatusInProcess || item.OrderHeader.Status == SD.StatusCompleted || item.OrderHeader.Status == SD.StatusReady)
                             {
-                                <button type="button" class="btn btn-info btnOrderStatus" data-id="@item.OrderHeader.Id" data-toggle="modal">
-                                    <i class="far fa-clock"></i> Status
-                                </button>
-                            }
+                        <button type="button" class="btn btn-info btnOrderStatus" data-id="@item.OrderHeader.Id" data-toggle="modal">
+                            <i class="far fa-clock"></i> Status
+                        </button>}
                         </td>
                     </tr>
 

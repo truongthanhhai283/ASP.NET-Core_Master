@@ -488,6 +488,8 @@ Fix:
 	1. Introduction
 	
 	2. Order Pickup Get Action Method
+	
+	3. Order Pickup View Part 1
 			
 		
 	

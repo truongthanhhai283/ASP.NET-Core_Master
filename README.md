@@ -481,6 +481,8 @@ Fix:
 	18. Manage Order View Part 1
 	
 	19. Manage Order View Part 2
+	
+	20. Manage Order Status Actions
 		
 			
 		

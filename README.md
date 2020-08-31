@@ -93,7 +93,11 @@ Fix:
                 options.Cookie.HttpOnly = true;
             });
 		
+	8. An unhandled exception occurred while processing the request.
+		NullReferenceException: Object reference not set to an instance of an object.
 		
+		Solution: change method post -> get
+
 2. Section 2 Fundamentals and Security
 	1. Create a new project
 	2. Csproj file
@@ -492,6 +496,10 @@ Fix:
 	3. Order Pickup View Part 1
 	
 	4. Order Pickup View Part 2
+	
+	5. Order Pickup Button
+	
+	6. Order Pickup Completed
 			
 		
 	

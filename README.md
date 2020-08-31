@@ -467,3 +467,15 @@ Fix:
 	
 	14. Consume Paging Tag Helper
 	
+	15. Assignment 5 - Step 1 - Create button Order status Details in order history
+	
+	16. Assignment 5 - Step 2 - Order status Details tracking on Order History Page
+		- create Orderstatuspartial image
+		  + Based on the order status displaying its correctspongding images
+		  + Add constants image sd
+		- Create action GetOrderStatus in orderController that will return partial view _orderStatus
+		_ Add new modal orderstatus Popup Like OrderDetail
+		
+			
+		
+	

@@ -92,5 +92,11 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
 
             return PartialView("_IndividualOrderDetailsPartial", orderDetailsViewModel);
         }
+
+        public IActionResult GetOrderStatus(int Id)
+        {
+            return PartialView("_OrderStatusPartial", _db.OrderHeader.Where(m => m.Id == Id).FirstOrDefault().Status);
+
+        }
     }
 }

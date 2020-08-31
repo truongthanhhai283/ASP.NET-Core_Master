@@ -479,6 +479,8 @@ Fix:
 	17. Manage Order Action Method
 	
 	18. Manage Order View Part 1
+	
+	19. Manage Order View Part 2
 		
 			
 		

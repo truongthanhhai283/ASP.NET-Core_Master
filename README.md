@@ -483,7 +483,11 @@ Fix:
 	19. Manage Order View Part 2
 	
 	20. Manage Order Status Actions
-		
+
+14. Order Pickup
+	1. Introduction
+	
+	2. Order Pickup Get Action Method
 			
 		
 	

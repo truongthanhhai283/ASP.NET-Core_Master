@@ -98,5 +98,30 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
             return PartialView("_OrderStatusPartial", _db.OrderHeader.Where(m => m.Id == Id).FirstOrDefault().Status);
 
         }
+
+
+        [Authorize(Roles = SD.KitchenUser + "," + SD.ManagerUser)]
+        public async Task<IActionResult> ManageOrder(int productPage = 1)
+        {
+
+            List<OrderDetailsViewModel> orderDetailsVM = new List<OrderDetailsViewModel>();
+
+            List<OrderHeader> OrderHeaderList = await _db.OrderHeader.Where(o => o.Status == SD.StatusSubmitted || o.Status == SD.StatusInProcess).OrderByDescending(u => u.PickUpTime).ToListAsync();
+
+
+            foreach (OrderHeader item in OrderHeaderList)
+            {
+                OrderDetailsViewModel individual = new OrderDetailsViewModel
+                {
+                    OrderHeader = item,
+                    OrderDetails = await _db.OrderDetails.Where(o => o.OrderId == item.Id).ToListAsync()
+                };
+                orderDetailsVM.Add(individual);
+            }
+
+
+
+            return View(orderDetailsVM.OrderBy(o => o.OrderHeader.PickUpTime).ToList());
+        }
     }
 }

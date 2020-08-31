@@ -476,6 +476,7 @@ Fix:
 		- Create action GetOrderStatus in orderController that will return partial view _orderStatus
 		_ Add new modal orderstatus Popup Like OrderDetail
 		
+	17. Manage Order Action Method
 			
 		
 	

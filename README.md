@@ -490,6 +490,8 @@ Fix:
 	2. Order Pickup Get Action Method
 	
 	3. Order Pickup View Part 1
+	
+	4. Order Pickup View Part 2
 			
 		
 	

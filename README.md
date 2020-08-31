@@ -477,6 +477,9 @@ Fix:
 		_ Add new modal orderstatus Popup Like OrderDetail
 		
 	17. Manage Order Action Method
+	
+	18. Manage Order View Part 1
+		
 			
 		
 	

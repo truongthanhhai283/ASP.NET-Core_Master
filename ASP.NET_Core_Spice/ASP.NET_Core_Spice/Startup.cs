@@ -44,6 +44,8 @@ namespace ASP.NET_Core_Spice
             services.AddSingleton<IEmailSender, EmailSender>();
             services.Configure<EmailOptions>(Configuration);
 
+            services.AddScoped<IDbInitializer, DbInitializer>();
+
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
 
             services.AddControllersWithViews();
@@ -71,7 +73,7 @@ namespace ASP.NET_Core_Spice
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -93,6 +95,7 @@ namespace ASP.NET_Core_Spice
 
             //.NET Core 2.2
             //StripeConfiguration.SetApiKey(Configuration.GetSection("Stripe")["SecretKey"]);
+            dbInitializer.Initialize();
             app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();

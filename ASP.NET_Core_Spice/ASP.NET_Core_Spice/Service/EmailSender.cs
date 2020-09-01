@@ -28,7 +28,8 @@ namespace ASP.NET_Core_Spice.Service
             var client = new SendGridClient(sendGridKey);
             var msg = new SendGridMessage()
             {
-                From = new EmailAddress("admin@spice.com", "Spice Restaurant"),
+                //From: email of admin system (truongthanhhai283@gmail.com)
+                From = new EmailAddress("truongthanhhai283@gmail.com", "Spice Restaurant"),
                 Subject = subject,
                 PlainTextContent = message,
                 HtmlContent = message

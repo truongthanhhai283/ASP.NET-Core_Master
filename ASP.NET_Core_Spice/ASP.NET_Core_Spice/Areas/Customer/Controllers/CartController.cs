@@ -8,6 +8,7 @@ using ASP.NET_Core_Spice.Models;
 using ASP.NET_Core_Spice.Models.ViewModels;
 using ASP.NET_Core_Spice.Utility;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Stripe;
@@ -18,13 +19,15 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
     public class CartController : Controller
     {
         private readonly ApplicationDbContext _db;
+        private readonly IEmailSender _emailSender;
 
         [BindProperty]
         public OrderDetailsCartViewModel detailCart { get; set; }
 
-        public CartController(ApplicationDbContext db)
+        public CartController(ApplicationDbContext db, IEmailSender emailSender)
         {
             _db = db;
+            _emailSender = emailSender;
         }
 
         public async Task<IActionResult> Index()
@@ -248,6 +251,8 @@ namespace ASP.NET_Core_Spice.Areas.Customer.Controllers
 
             if (charge.Status.ToLower() == "succeeded")
             {
+                await _emailSender.SendEmailAsync(_db.Users.Where(u=>u.Id==claim.Value).FirstOrDefault().Email,"Spice - Order created "+ detailCart.OrderHeader.Id.ToString(),"Order has been sumitted successfully.");
+
                 detailCart.OrderHeader.PaymentStatus = SD.PaymentStatusApproved;
                 detailCart.OrderHeader.Status = SD.StatusSubmitted;
             }

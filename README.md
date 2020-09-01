@@ -540,6 +540,8 @@ Fix:
 	4. Configure Settings for Email Part 1
 	
 	5. Configure Settings for Email Part 2
+	
+	6. Send Email on Order Creation
 		
 
 	

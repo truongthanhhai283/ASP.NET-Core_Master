@@ -518,5 +518,9 @@ Fix:
 	4. Facebook Registration Page
 			
 	5. Register Facebook User
+	
+	6. View Component
+	
+	7. View Component Action Method
 		
 	

@@ -522,5 +522,7 @@ Fix:
 	6. View Component
 	
 	7. View Component Action Method
+	
+	8. View Component View and Consumption
 		
 	

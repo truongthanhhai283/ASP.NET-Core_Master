@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Adb6Bp0kPSovB/iL+JQO1CQEwI4xhvbkC0V75jqU/6D2tteZNiUqJnh5NvzsjY8NRbIPrC22KoZQStq2sT2Zzw==",
+  "dgSpecHash": "XwqXgg40+0rBVGq2oxPRRw3/Zurap4lGeDA3SKkQzy7qLrrciqFK+aerkOng6Qd6CzvjZsMXNTtynU6OZIP2rw==",
   "success": true,
   "projectFilePath": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET_Core_Spice\\ASP.NET_Core_Spice\\ASP.NET_Core_Spice.csproj",
   "expectedPackageFiles": [
@@ -86,6 +86,8 @@
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\TruongThanhHai\\.nuget\\packages\\sendgrid\\9.21.0\\sendgrid.9.21.0.nupkg.sha512",
+    "C:\\Users\\TruongThanhHai\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\stripe.net\\37.35.0\\stripe.net.37.35.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",

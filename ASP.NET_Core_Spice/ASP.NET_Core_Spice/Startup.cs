@@ -41,7 +41,8 @@ namespace ASP.NET_Core_Spice
             services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddSingleton<IEmailSender,EmailSender>();
+            services.AddSingleton<IEmailSender, EmailSender>();
+            services.Configure<EmailOptions>(Configuration);
 
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
 

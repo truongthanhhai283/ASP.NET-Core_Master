@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.21.0, )"
+            },
             "Stripe.net": {
               "target": "Package",
               "version": "[37.35.0, )"

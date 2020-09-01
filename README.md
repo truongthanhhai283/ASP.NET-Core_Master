@@ -537,7 +537,7 @@ Fix:
 	3. Send Grid Sender Verification Fix	
 		Sender Authentication -> Single Sender Verification
 
-		
+	4. Configure Settings for Email Part 1
 		
 
 	

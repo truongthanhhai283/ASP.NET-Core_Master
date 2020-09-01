@@ -502,6 +502,19 @@ Fix:
 	6. Order Pickup Completed
 	
 	7. Roles Login Check
+	
+	8. Order Pickup cancelled
+	
+15. Social Logins
+	1. Introduction
+	
+	2. Facebook Login NuGet
+		Microsoft.AspNetCore.Authentication.Facebook
+		Microsoft.AspNetCore.Authentication.google
+		
+	3. Add facebook login to project
+
+
 			
 		
 	

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JrutK7cuO2SZ91O4nZlhGGJtU2CJVi/dAkSHsdGPSlLrZdwRWpXMvipO6X8whT7fNjjL8LVCr/6Qm44RAUP41g==",
+  "dgSpecHash": "Adb6Bp0kPSovB/iL+JQO1CQEwI4xhvbkC0V75jqU/6D2tteZNiUqJnh5NvzsjY8NRbIPrC22KoZQStq2sT2Zzw==",
   "success": true,
   "projectFilePath": "D:\\Project\\ASP.NET-Core_Master\\ASP.NET_Core_Spice\\ASP.NET_Core_Spice\\ASP.NET_Core_Spice.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TruongThanhHai\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.7\\microsoft.aspnetcore.authentication.facebook.3.1.7.nupkg.sha512",
+    "C:\\Users\\TruongThanhHai\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.7\\microsoft.aspnetcore.authentication.google.3.1.7.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",
     "C:\\Users\\TruongThanhHai\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.5.nupkg.sha512",

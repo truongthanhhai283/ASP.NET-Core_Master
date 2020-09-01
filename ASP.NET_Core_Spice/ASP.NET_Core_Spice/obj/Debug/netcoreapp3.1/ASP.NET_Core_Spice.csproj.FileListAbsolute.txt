@@ -404,9 +404,6 @@ D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\bin\Debug\n
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.AssemblyInfoInputs.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.AssemblyInfo.cs
-D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.csproj.CoreCompileInputs.cache
-D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.MvcApplicationPartsAssemblyInfo.cs
-D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.RazorAssemblyInfo.cache
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.RazorAssemblyInfo.cs
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\ASP.NET_Core_Spice.TagHelpers.input.cache
@@ -505,3 +502,4 @@ D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\n
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_OrderStatusPartial.cshtml.g.cs
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\ManageOrder.cshtml.g.cs
 D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\OrderPickup.cshtml.g.cs
+D:\Project\ASP.NET-Core_Master\ASP.NET_Core_Spice\ASP.NET_Core_Spice\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll

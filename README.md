@@ -514,7 +514,8 @@ Fix:
 
 	3. Add facebook login to project
 		https://developers.facebook.com/apps
-
+		
+	4. Facebook Registration Page
 			
 		
 	

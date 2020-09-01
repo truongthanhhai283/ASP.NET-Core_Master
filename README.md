@@ -37,6 +37,10 @@ Tips
 	Stripe: https://dashboard.stripe.com/test/apikeys, https://stripe.com/docs/testing
 	
 	jQuery Modal
+	
+	https://app.sendgrid.com/guide?from=profile&integrate=true  API Keys
+	
+	
 
 Fix: 
 	1. 
@@ -525,4 +529,8 @@ Fix:
 	
 	8. View Component View and Consumption
 		
+16. Email
+	1. Introduction
+	
+	2. Send Grid Key
 	

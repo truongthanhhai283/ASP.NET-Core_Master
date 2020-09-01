@@ -543,5 +543,6 @@ Fix:
 	
 	6. Send Email on Order Creation
 		
+	7. Send Email on Order Status Change
 
 	

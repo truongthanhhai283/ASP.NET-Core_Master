@@ -511,9 +511,9 @@ Fix:
 	2. Facebook Login NuGet
 		Microsoft.AspNetCore.Authentication.Facebook
 		Microsoft.AspNetCore.Authentication.google
-		
-	3. Add facebook login to project
 
+	3. Add facebook login to project
+		https://developers.facebook.com/apps
 
 			
 		

@@ -57,6 +57,11 @@ namespace ASP.NET_Core_Spice
                 options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
             });
 
+            services.AddAuthentication().AddFacebook(facebookOptions => {
+                facebookOptions.AppId = "945145609293313";
+                facebookOptions.AppSecret = "34614a54ee4b4919390f9a2b79639274";
+            });
+
             services.AddSession(options => {
                 options.Cookie.IsEssential = true;
                 options.IdleTimeout = TimeSpan.FromMinutes(30);

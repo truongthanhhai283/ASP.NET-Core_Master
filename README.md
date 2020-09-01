@@ -517,5 +517,6 @@ Fix:
 		
 	4. Facebook Registration Page
 			
+	5. Register Facebook User
 		
 	

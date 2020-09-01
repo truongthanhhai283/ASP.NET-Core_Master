@@ -538,6 +538,8 @@ Fix:
 		Sender Authentication -> Single Sender Verification
 
 	4. Configure Settings for Email Part 1
+	
+	5. Configure Settings for Email Part 2
 		
 
 	

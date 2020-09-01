@@ -544,5 +544,15 @@ Fix:
 	6. Send Email on Order Creation
 		
 	7. Send Email on Order Status Change
+	
+	8. Designing Change
+	
+17. Deployment
+	1. Introduction
+	
+	2. Deployment Guide
+	
+	3. Seed Database Part 1
+	
 
 	

@@ -534,3 +534,10 @@ Fix:
 	
 	2. Send Grid Key
 	
+	3. Send Grid Sender Verification Fix	
+		Sender Authentication -> Single Sender Verification
+
+		
+		
+
+	
